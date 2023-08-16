@@ -16,6 +16,9 @@
 		2B1A0D562A8D138100335772 /* KindHabitsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D552A8D138100335772 /* KindHabitsUITestsLaunchTests.swift */; };
 		2B1A0D642A8D139D00335772 /* KHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D632A8D139D00335772 /* KHModel.swift */; };
 		2B1A0D662A8D140300335772 /* KHViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D652A8D140300335772 /* KHViewModel.swift */; };
+		2B1A0D6B2A8D168700335772 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D6A2A8D168700335772 /* HomePage.swift */; };
+		2B1A0D6D2A8D169600335772 /* CalendarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D6C2A8D169600335772 /* CalendarPage.swift */; };
+		2B1A0D6F2A8D16A200335772 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D6E2A8D16A200335772 /* ProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		2B1A0D552A8D138100335772 /* KindHabitsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindHabitsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B1A0D632A8D139D00335772 /* KHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHModel.swift; sourceTree = "<group>"; };
 		2B1A0D652A8D140300335772 /* KHViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHViewModel.swift; sourceTree = "<group>"; };
+		2B1A0D6A2A8D168700335772 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		2B1A0D6C2A8D169600335772 /* CalendarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPage.swift; sourceTree = "<group>"; };
+		2B1A0D6E2A8D16A200335772 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +143,35 @@
 			isa = PBXGroup;
 			children = (
 				2B1A0D3A2A8D138100335772 /* ContentView.swift */,
+				2B1A0D672A8D164700335772 /* Home */,
+				2B1A0D682A8D164B00335772 /* Calendar */,
+				2B1A0D692A8D165200335772 /* Profile */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2B1A0D672A8D164700335772 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A0D6A2A8D168700335772 /* HomePage.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2B1A0D682A8D164B00335772 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A0D6C2A8D169600335772 /* CalendarPage.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2B1A0D692A8D165200335772 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A0D6E2A8D16A200335772 /* ProfilePage.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1A0D6D2A8D169600335772 /* CalendarPage.swift in Sources */,
+				2B1A0D6B2A8D168700335772 /* HomePage.swift in Sources */,
 				2B1A0D3B2A8D138100335772 /* ContentView.swift in Sources */,
+				2B1A0D6F2A8D16A200335772 /* ProfilePage.swift in Sources */,
 				2B1A0D642A8D139D00335772 /* KHModel.swift in Sources */,
 				2B1A0D392A8D138100335772 /* KindHabitsApp.swift in Sources */,
 				2B1A0D662A8D140300335772 /* KHViewModel.swift in Sources */,
