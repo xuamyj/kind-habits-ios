@@ -14,6 +14,8 @@
 		2B1A0D4A2A8D138100335772 /* KindHabitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D492A8D138100335772 /* KindHabitsTests.swift */; };
 		2B1A0D542A8D138100335772 /* KindHabitsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D532A8D138100335772 /* KindHabitsUITests.swift */; };
 		2B1A0D562A8D138100335772 /* KindHabitsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D552A8D138100335772 /* KindHabitsUITestsLaunchTests.swift */; };
+		2B1A0D642A8D139D00335772 /* KHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D632A8D139D00335772 /* KHModel.swift */; };
+		2B1A0D662A8D140300335772 /* KHViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1A0D652A8D140300335772 /* KHViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2B1A0D4F2A8D138100335772 /* KindHabitsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindHabitsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1A0D532A8D138100335772 /* KindHabitsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindHabitsUITests.swift; sourceTree = "<group>"; };
 		2B1A0D552A8D138100335772 /* KindHabitsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindHabitsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B1A0D632A8D139D00335772 /* KHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHModel.swift; sourceTree = "<group>"; };
+		2B1A0D652A8D140300335772 /* KHViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		2B1A0D372A8D138100335772 /* KindHabits */ = {
 			isa = PBXGroup;
 			children = (
+				2B1A0D632A8D139D00335772 /* KHModel.swift */,
+				2B1A0D652A8D140300335772 /* KHViewModel.swift */,
+				2B1A0D622A8D138D00335772 /* Views */,
 				2B1A0D382A8D138100335772 /* KindHabitsApp.swift */,
-				2B1A0D3A2A8D138100335772 /* ContentView.swift */,
 				2B1A0D3C2A8D138100335772 /* Assets.xcassets */,
 				2B1A0D3E2A8D138100335772 /* Preview Content */,
 			);
@@ -125,6 +131,14 @@
 				2B1A0D552A8D138100335772 /* KindHabitsUITestsLaunchTests.swift */,
 			);
 			path = KindHabitsUITests;
+			sourceTree = "<group>";
+		};
+		2B1A0D622A8D138D00335772 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B1A0D3A2A8D138100335772 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1A0D3B2A8D138100335772 /* ContentView.swift in Sources */,
+				2B1A0D642A8D139D00335772 /* KHModel.swift in Sources */,
 				2B1A0D392A8D138100335772 /* KindHabitsApp.swift in Sources */,
+				2B1A0D662A8D140300335772 /* KHViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
